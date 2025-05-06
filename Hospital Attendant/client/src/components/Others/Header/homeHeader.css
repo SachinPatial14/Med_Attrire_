@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#homeHeader {
+    width: 100%;
+    background-color: #19535f;
+    padding: 15px 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    left: 0;
+  }
+  
+  #homeHeaderElements {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #logoHome {
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  #homeHeaderElements p {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+  }
+  
+  #navLinks ul#links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #navLinks ul#links li {
+    margin: 0 10px;
+  }
+  
+  #navLinks ul#links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  #navLinks ul#links li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffd700;
+  }
+  
+  #navLinks ul#links li a#active {
+    border-bottom: 2px solid #ffd700;
+  }
+  
+  /* profile Model */
+
+  
+  #profile {
+    position: fixed;
+    top: 25%;
+    left: 85%;
+    transform: translate(-50%, -50%);  
+    max-width: 400px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 1000;
+  }
+  
+  #fullName h2 {
+    margin: 0 0 10px;
+    color: #333333;
+    font-size: 24px;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+  }
+
+  #fullName h6{
+    color: #808588;
+  }
+  
+
+  #profile button{
+    padding: 6px;
+    border: none;
+    border-radius: 3px;
+    background-color: #d21404;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+
+  #profile button:hover{
+    background-color: #9b1003;
+  }
+
+#btnDiv{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
